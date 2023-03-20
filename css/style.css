@@ -104,10 +104,10 @@ header.shadow {
   order: 3;
 }
 .home-img img {
-  width: 100%;
+  width: 100% ;
   border-radius: 8rem;
   position: relative;
-  top: 5rem;
+  top: 2rem;
   border: solid #25a9a5;
 
 }
@@ -161,7 +161,8 @@ header.shadow {
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
-  margin: auto;
+  align-items: center;
+  margin: 0px auto;
 }
 .about-text p {
   font-size: var(--p-font);
@@ -189,6 +190,7 @@ header.shadow {
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
+  
 }
 .vaardigheden-img img {
   width: 80%;
@@ -445,6 +447,8 @@ form textarea {
   .about-img {
     display: flex;
     justify-content: center;
+    display: block;
+    margin: 0px auto;
   }
   .vaardigheden-container {
     grid-template-columns: 1fr;
