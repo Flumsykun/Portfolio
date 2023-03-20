@@ -158,8 +158,27 @@
         </div>
     </div>
 </section> -->
-<!-- Contact -->
-<section class="contact" id="contact">
+            <!--===== CONTACT =====-->
+            <section class="contact" id="contact">
+                <div class="heading">
+                    <h2>Contact</h2>
+                    <span>Stuur een berichtje :D</span>
+                </div>
+                <div class="contact-form">
+                    <form method = "post" action="message.php" class="contact__form">
+                        <input type="text" placeholder="Naam" name="name" class="contact__input">
+                        <input type="mail" placeholder="Email" name="email" class="contact__input">
+                        <input type="text" placeholder="Telefoonnummer" name="phone" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Laat hier je bericht achter!"></textarea>
+                        <div class="button-area">
+                        <button type="submit" class="contact-button">Verstuur</button>
+                        <span></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+<!-- <section class="contact" id="contact">
     <div class="heading">
         <h2>Contact</h2>
         <span>Stuur een berichtje :D</span>
@@ -171,8 +190,10 @@
             <textarea name="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
             <button type="submit" class="contact-button">Send</button>
         </form>
-    </div>
-</section> <!-- Footer -->
+    </div> -->
+<!--</section> -->
+
+<!-- Footer -->
 <div class="footer">
     <h2>© 2023 JML_VDR</h2>
     <div class="footer-social">
@@ -183,6 +204,6 @@
     </div>
 </div>
     <!-- Link To JS -->
-    <script src="./js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
