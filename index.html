@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!--CSS File-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
     <!--Box Icons-->
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -79,9 +80,10 @@
                     <span>jgjvanderee@gmail.com</span>
                 </div>
             </div>
-            <a href="#" class="btn">Download Cv</a>
+            <a href="CV Jamil.pdf" download="CV Jamil van de Ree"class="btn">Download Cv</a>
         </div>
 </section>
+
 <!--vaardigheden-->
 <section class="vaardigheden" id="vaardigheden">
     <div class="heading">
@@ -94,28 +96,28 @@
                 <!-- Box 1 -->
                 <div class="bars-box">
                     <h3>HTML</h3>
-                    <span>85%</span>
+                    <span>80%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar html-bar"></div>
                 </div>
                 <!-- Box 2 -->
                 <div class="bars-box">
                     <h3>CSS</h3>
-                    <span>84%</span>
+                    <span>80%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar css-bar"></div>
                 </div>
                 <!-- Box 3 -->
                 <div class="bars-box">
                     <h3>JavaScript</h3>
-                    <span>74%</span>
+                    <span>70%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar js-bar"></div>
                 </div>
                 <!-- Box 4 -->
                 <div class="bars-box">
                     <h3>PHP</h3>
-                    <span>69%</span>
+                    <span>70%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar php-bar"></div>
                 </div>
@@ -125,40 +127,46 @@
             </div>
     </div>
 </section>
-<!-- Projecten -->
-<!-- <section class="projects" id="projects">
-    <div class="heading">
-        <h2>Projecten</h2>
-        <span>waar ik aan werk</span>
-    </div>
-    <div class="projects-content"> -->
-        <!-- Box 1 -->
-        <!-- <div class="projects-box">
-            <i class='bx bx-code-alt' ></i>
-            <h3>Web Development</h3>
-            <a href="#">Learn More</a>
-        </div> -->
-        <!-- Box 2 -->
-        <!-- <div class="projects-box">
-            <i class='bx bx-server' ></i>
-            <h3>Backend Development</h3>
-            <a href="#">Learn More</a>
-        </div> -->
-        <!-- Box 3 -->
-        <!-- <div class="projects-box">
-            <i class='bx bx-brush' ></i>
-            <h3>UI/UX Design</h3>
-            <a href="#">Learn More</a>
-        </div> -->
-<!-- 
-        <div class="projects-box">
-            <i class='bx bxl-wordpress' ></i>
-            <h3>Wordpress Developer</h3>
-            <a href="#">Learn More</a>
+
+<div class="cards">
+    <a href="https://85942.stu.sd-lab.nl//php/php%20oop/opdr9/opdr9.php" target="_blank">
+    <div class="card card1">
+        <div class="container">
+            <img src="./image/oop.png" alt="oop">
+        </div>
+        <div class="details">
+            <h3>PHP OOP (Backend)</h3>
+            <p>In dit project heb ik een backend applicatie gemaakt die gebruik maakt van oop, om hiermee auto's te registreren.</p>
         </div>
     </div>
-</section> -->
-            <!--===== CONTACT =====-->
+    </a>
+<!--Card2-->
+<a href="https://85942.stu.sd-lab.nl/php/avg/index.php" target="_blank">
+    <div class="card card2">
+        <div class="container">
+            <img src="./image/avg.png" alt="avg">
+        </div>
+        <div class="details">
+            <h3>PHP AVG (Backend)</h3>
+            <p>Dit is een backend project waarbij ik een paspoort foto moest blurren met php voor beveiliging</p>
+        </div>
+    </div>
+</a>
+<!-- Card3-->
+<a href="https://85942.stu.sd-lab.nl/.sneakers/" target="_blank">
+    <div class="card card3">
+        <div class="container">
+            <img src="./image/sneakers.png" alt="wip">
+        </div>
+        <div class="details">
+            <h3>Sneaker webshop (WIP)</h3>
+            <p>Dit is een sneaker webshop met nikeschoenen waar ik nog mee bezig ben. dit om mijn front end te laten zien</p>
+        </div>
+    </div>
+</a>
+</div>
+
+<!--CONTACT-->
             <section class="contact" id="contact">
                 <div class="heading">
                     <h2>Contact</h2>
@@ -178,24 +186,10 @@
                 </div>
             </div>
         </main>
-<!-- <section class="contact" id="contact">
-    <div class="heading">
-        <h2>Contact</h2>
-        <span>Stuur een berichtje :D</span>
-    </div>
-    <div class="contact-form">
-        <form action="">
-            <input type="text" name="naam" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-            <button type="submit" class="contact-button">Send</button>
-        </form>
-    </div> -->
-<!--</section> -->
 
 <!-- Footer -->
 <div class="footer">
-    <h2>© 2023 JML_VDR</h2>
+    <h2>© 2023 Jamil van de Ree</h2>
     <div class="footer-social">
         <a href="#"><i class='bx bxl-facebook' ></i></a>
         <a href="#"><i class='bx bxl-twitter' ></i></a>
@@ -203,6 +197,7 @@
         <a href="#"><i class='bx bxl-youtube' ></i></a>
     </div>
 </div>
+
     <!-- Link To JS -->
     <script src="script.js"></script>
 </body>
